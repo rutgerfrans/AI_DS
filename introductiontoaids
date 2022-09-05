@@ -63,9 +63,15 @@ a. Explain how a measure of proximity between a road vehicle and an obstacle cou
 b. Express the knowledge generated at the previous point into a rule which could be implemented into a knowledge based system 
 
 - Answer:
+A. First the proximity sensor will collect raw data about the distance between the vehicle and the obstacle. Secondly the the sensor will turn this raw data in information by alarming the user when the vehicle is to close to an obstacle. Lastly the user will turn the information into knowledge by stopping the vehicle on time when the sensor beeps.
+B. IF proximity sensor gives alarm THEN Stop vehicle.
 
 ***Excercice 2
 - Based on the example of Homework 1, try to think of other situations that result in data being 
 transferred into information and then knowledge.
+
+- Thermostats are build to measure the room temperature. It can detect certain heights or lows and act upon them by heating or cooling down the airconditioning.
+A. First the thermostat will record raw temperatures. Then it will check with the given boundaries by a third party such as a human. If it hits a certain boundaryit will turn this information into knowledge by acting upon these bounderies. It can either heating up or cool down the room.
+B. IF Room temperature is to cold THEN start heating room ELSE IF Room temperature too hot THEN start cooling down room.
 
 - Answer:
