@@ -103,11 +103,10 @@ B. IF Room temperature is to cold THEN start heating room ELSE IF Room temperatu
 Altough human-like behaviour can be usefull. For example in the Entertainment industry, Human-Like bot competitors and chatbots given advice.
 
 ### More to AI then the turing test
-|--------------------|----------------------|
 |Thinking Humanly    |Thinking rationally   |
 |--------------------|----------------------|
 |Acting Humanly      |Acting rationally     |
-|--------------------|----------------------|
+
 
 
 #### Thinking Humanly 
