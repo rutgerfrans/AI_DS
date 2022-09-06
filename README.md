@@ -122,3 +122,8 @@ Altough human-like behaviour can be usefull. For example in the Entertainment in
 - Rational behaviour: doing the right thing.
 - right thing: that which is expected to maximize goal achievement, given the available information
 - Doesn't necessarily involve thinking
+
+#### Rational Programs
+- Computational limitations make perfect rationality unachievable.
+- So we try to create the best program for the given machine resources.
+
