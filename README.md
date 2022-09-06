@@ -1,6 +1,6 @@
 
 
-#Introduction to Artificial Intelligence and Data Science
+# Introduction to Artificial Intelligence and Data Science
 ##Lecture 0
 ###What is data science?
 - Data Science is the discipline that describes, predicts and makes casual inferences based on data.
