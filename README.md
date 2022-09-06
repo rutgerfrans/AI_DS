@@ -1,7 +1,7 @@
 
 
 # Introduction to Artificial Intelligence and Data Science
-## Lecture 0
+## Lecture 0 5/9/22
 ### What is data science?
 - Data Science is the discipline that describes, predicts and makes casual inferences based on data.
 
@@ -42,7 +42,7 @@ b. Express the knowledge generated at the previous point into a rule which could
 A. First step is to collect the <u>raw breathing data</u> of the baby. The second step is the sensor turning this data in information by detecting if the baby is still breathing. The third step is the human understanding the information and turning it in knowledge by checking upon the baby.
 B. IF sensor gives alarm THEN check upon baby.
 
-1. Breating records = data.
+1. Breathing records = data.
 2. The Alarm going of = information.
 3. checking upon the baby = knowledge.
 
@@ -79,3 +79,47 @@ A. First the thermostat will record raw temperatures. Then it will check with th
 B. IF Room temperature is to cold THEN start heating room ELSE IF Room temperature too hot THEN start cooling down room.
 
 
+##Lecture 1 6/9/22 Artificial Intelligence
+### Turing test
+- A test where a person interacts with a human and AI. 
+- The human has to determin if it is interacting with the human or AI.
+- If the human cant determin it, it passed the test
+
+#### Problems with the turing test
+- Can improve chance of passing through psychological strategies
+- Doesn't test 'intelligence', just responses (chinese room problem)
+- Humans van 'fail' to convince the judges they are not computers
+
+#### Advantages of turing test
+- Objective notion of Intelligence
+- Avoids discussion of internal processes and consciousness
+- Eliminates bias in favor of living organism
+
+#### Objection to the turing test
+- Bias toward purely symbolic problem solving task
+- Constrain machine intelligence to fit human mold
+- It is a distraction
+
+Altough human-like behaviour can be usefull. For example in the Entertainment industry, Human-Like bot competitors and chatbots given advice.
+
+### More to AI then the turing test
+|--------------------|----------------------|
+|Thinking Humanly    |Thinking rationally   |
+|--------------------|----------------------|
+|Acting Humanly      |Acting rationally     |
+|--------------------|----------------------|
+
+
+#### Thinking Humanly 
+- Requires scientific theories of internal brain activities
+- Need of Cognitive Science and Cognitive Neuroscience
+
+#### Thinking rationally
+- Direct line through mathematics and philosophy to modern AI
+- Problem: Not all intelligent behaviour is mediated bu logical deliberation
+
+
+#### Acting rationally
+- Rational behaviour: doing the right thing.
+- right thing: that which is expected to maximize goal achievement, given the available information
+- Doesn't necessarily involve thinking
