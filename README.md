@@ -79,7 +79,7 @@ A. First the thermostat will record raw temperatures. Then it will check with th
 B. IF Room temperature is to cold THEN start heating room ELSE IF Room temperature too hot THEN start cooling down room.
 
 
-##Lecture 1 6/9/22 Artificial Intelligence
+## Lecture 1 6/9/22 Artificial Intelligence
 ### Turing test
 - A test where a person interacts with a human and AI. 
 - The human has to determin if it is interacting with the human or AI.
@@ -126,4 +126,137 @@ Altough human-like behaviour can be usefull. For example in the Entertainment in
 #### Rational Programs
 - Computational limitations make perfect rationality unachievable.
 - So we try to create the best program for the given machine resources.
+
+## Lecture 2 8/9/22 
+(fourier analysis not needed for exam)
+### Data visualization
+- The general principle tot display data: <u>as far as possible, to show the original data and try not to obscure the design of the study.</u>
+- Show as much data/information as possible.
+
+#### Develop critical/statistical thinking
+- Visualization isn't jusst about plotting data. It's about understanding the data and looking at it in a critical way. You are looking for features that will help you determine the mot suitable way to handle, process and analyze those data.
+- Think of ww2 airplane example
+
+### Time series data
+- sequence of data points, measurements made over a time interval 
+- (normally) a quantity over an independent variable (usually time).
+
+#### How dow we identify patterns/structures in a time series?
+- Patterns in time series tend to come form <u>repetition</u>.
+- Sometimes hard to detect.
+- Sometimes you need to change the representation of the time series to detect a pattern.
+
+
+## Lecture 2 
+
+## Lecture 3 12/9/22 Agents
+### What is an agent?
+- An agent is anything that can be viewed as <u>perceiving</u> through <u>sensors</u> and <u>acting</u> upon that environment through <u>actuators</u>.
+- An agent operates autonomoously
+- Examples: Humans, robots, softbots, thermostats, etc.
+
+### Abstract form of an agent
+- [f: P* -> A]
+
+### Example of agents:
+Human agents:
+- Sensors: eyes, ears and other organs
+- Actuators: hands, legs, mouth and other body parts for actuators
+
+Robotic agents:
+- Sensors: Cameras, infrared range finders;
+- Actuators: various motors;
+
+### Rational Agents
+- A rational agents strives to "do the right thing"
+- The right action is the one that makes the agent most succesful
+- is autonomous (when an agents behaviour is determined by its own exp)
+
+Formal definition:
+- For each possible percept sequence, a rational agent should select an action that is expected to maximise its performance measure, given the evidence procided by the percept sequence and whatever built-in knowledge the agent has.
+ 
+### PEAS
+- Performance measure
+- Environment
+- Actuators
+- Sensors
+
+Consider designing an automated taxi:
+- Pm: Safe, fast, legal, comf. trp, max. profits.
+- E: Roads, other traffic, pedestrians, customers.
+- A: Steering wheel, accelorator, brake, signal, horn.
+- S: Cameras, sonar, speedometer, GPS, odometer, engine sensors, keyboard.
+
+#### Environment types
+##### Fully observable 
+- Giving the agent a complete state of the environment at each point in time.
+- For instance checkers, you can see the whole board including your own pieces aswell as the oponents pieces.
+##### Partially observable
+- Giving the agent only a partly state of the environment:
+- For instance: poker, You only see your own cards and the cards on the table but not someones other cards.
+##### Deterministic
+- The next state of the environment is completely determined by the current state and the action executed by the agent.
+- For instance Checkers and Stratego.
+##### Stochastic
+- The next state of the environment is not completely determined by the curren state and the action executed by the agent.
+- For instance roulette and boogschieten. 
+##### Episodic 
+- The Agent's exp is divided into atomic 'episodes' and the choice of actio in each episode depends only on the episode itself.
+##### Sequential
+- The Agent's exp is divided into atomic 'episodes' and the choice of action can be based on other episodes.
+##### Static
+- The environment is unchanged while an agent is deliberating.
+##### Dynamic
+- The environment changes while an agent is deliberating.
+##### Discrete
+- A limited number of distinct, clearly defined percepts and actions.
+##### continuos
+- A unlimited number of distinct, clearly defined percepts and actions.
+##### Single agent
+- An agent operating by itself in an environment
+##### Multiagent
+- Multiple agents operating in an environment
+##### Known 
+- State of knowledge of the 'law of physics' of the environment.
+##### Unknown
+- 
+
+### The Structure of Agents
+#### Agent functins and programs
+- An agent is specified by the agent function mapping percept sequences to actions
+- One agent funcion is rational
+
+##### 4 basic types in order of increasing generality"
+1. Simple reflex agents
+- Chooses action based only on the current percept.
+- Implemented by condition action rules, (if then) rules.
+- if dirty then suck
+- Only works if the environment is fully observable. otherwise inf loops, think of maze
+2. Model-based agents
+- To tackle partially observable environments
+- Over time update state using world knowledge: How does world change, How do actions affect world.
+3. Goal-based agents
+- The agents needs a goal to which situations are desirable.
+- Typically investigated in search and planning research.
+- Future is taken into account.
+- Is more flexible since goals are represented explicitly and can be change.
+4. Utility-based agents
+- Certain goals can be reached in different ways
+- Utility function maps a state onto a real number. 
+- Improves on goals.
+
+### Exam check list
+- Whats an agent?
+- When is it rational?
+- When is is autonomous?
+- PEAS
+- Describing environments
+- Basic agent architectures
+
+
+
+- All can be turned into learning agents
+
+
+
 
