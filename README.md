@@ -254,8 +254,40 @@ Consider designing an automated taxi:
 - Basic agent architectures
 
 
+## Lecture 4 13/9/22 Data Mining
+### CRISP-DM
+- <b>CR</b>oss <b>I</b>ndustry <b>S</b>tandard <b>P</b>rocess for <b>D</b>ata <b>M</b>ining
 
-- All can be turned into learning agents
+### Data mining = identifying patterns in data
+- Patterns are everywhere: Traffic, Customer service, Human genome, advertisments, etc.
+
+### Problems suitable for data mining
+- require knowledge-based decisions
+- hae a changing environment
+- have sub-optimal current methods
+- have accessible, sufficient, and relevent darta
+- provideshigh payoff for the right decisions
+- privacy and ethics considerations important if personal data is involved.
+
+### Types of learning 
+- Supervised learning 
+- Unsupervised learning
+- Reinforcement learning
+
+### Data mining - tasks
+1. Anomaly detection (outlier/change/deviation detection)
+2. Association rule learning (dependency modeling)
+3. Clustering
+4. Classification 
+5. Regression 
+6. Summarization
+
+- Machine learing: Supervised, Unsupervised or reinforced learning
+- Supervised learning: Classification or Regression 
+- Unsupervised Learning: Clustering
+
+### Euclidean distance
+- insert image, zie note book.
 
 
 
