@@ -3,11 +3,11 @@
 # Introduction to Artificial Intelligence and Data Science
 This README file contains all my personal lecture notes.
 
--[Lecture 0]#Lecture0
--[Lecture 1]#Lecture1
--[Lecture 2]#Lecture2
--[Lecture 2b]#Lecture2b
--[lecture 3]#Lecture3
+-[Lecture 0](#Lecture0)
+-[Lecture 1](#Lecture1)
+-[Lecture 2](#Lecture2)
+-[Lecture 2b](#Lecture2b)
+-[lecture 3](#Lecture3)
 
 
 
