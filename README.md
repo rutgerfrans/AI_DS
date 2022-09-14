@@ -11,26 +11,26 @@
 ### The Data Science Progress
 - Data --> Information --> Knowledge
 
-1. <u>Ask</u> an interresting question.
-2. <u>Get</u> data.
-3. <u>Model</u> data.
-4. <u>Communicate</u> and <u>Visualize</u> the Results
+1. <ins>Ask</ins> an interresting question.
+2. <ins>Get</ins> data.
+3. <ins>Model</ins> data.
+4. <ins>Communicate</ins> and <ins>Visualize</ins> the Results
 
 #### What is Data?
-- Data are <u>facts</u>
-- Data can be <u>recorded</u>
+- Data are <ins>facts</ins>
+- Data can be <ins>recorded</ins>
 - Example: 30 degrees.
 
 #### What is Information?
-- Information is data presented in a <u>form/shape</u> that is <u>meaningful</u> to the recipiant.
-- Data in <u>context</u>.
+- Information is data presented in a <ins>form/shape</ins> that is <ins>meaningful</ins> to the recipiant.
+- Data in <ins>context</ins>.
 - Information can be used because it can be understood.
 
 #### What is Knowledge?
 - Looks like information but is absolutely not the same. 
-- Knowledge has <u>impact</u> on your <u>decision</u>, information doesn't.
-- Knowledge is information ones you put it in <u>action</u>.
-- Knowledge are <u>results</u> of <u>understanding</u> information.
+- Knowledge has <ins>impact</ins> on your <ins>decision</ins>, information doesn't.
+- Knowledge is information ones you put it in <ins>action</ins>.
+- Knowledge are <ins>results</ins> of <ins>understanding</ins> information.
 
 ##### Excercie/Example
 Given the following situation:
@@ -39,7 +39,7 @@ a. Explain how measurements of baby movements could be transformed from data int
 b. Express the knowledge generated at the previous point into a rule which could be implemented
 
 - Answer:
-A. First step is to collect the <u>raw breathing data</u> of the baby. The second step is the sensor turning this data in information by detecting if the baby is still breathing. The third step is the human understanding the information and turning it in knowledge by checking upon the baby.
+A. First step is to collect the <ins>raw breathing data</ins> of the baby. The second step is the sensor turning this data in information by detecting if the baby is still breathing. The third step is the human understanding the information and turning it in knowledge by checking upon the baby.
 B. IF sensor gives alarm THEN check upon baby.
 
 1. Breathing records = data.
@@ -130,7 +130,7 @@ Altough human-like behaviour can be usefull. For example in the Entertainment in
 ## Lecture 2 8/9/22 
 (fourier analysis not needed for exam)
 ### Data visualization
-- The general principle tot display data: <u>as far as possible, to show the original data and try not to obscure the design of the study.</u>
+- The general principle tot display data: <ins>as far as possible, to show the original data and try not to obscure the design of the study.</ins>
 - Show as much data/information as possible.
 
 #### Develop critical/statistical thinking
@@ -142,7 +142,7 @@ Altough human-like behaviour can be usefull. For example in the Entertainment in
 - (normally) a quantity over an independent variable (usually time).
 
 #### How dow we identify patterns/structures in a time series?
-- Patterns in time series tend to come form <u>repetition</u>.
+- Patterns in time series tend to come form <ins>repetition</ins>.
 - Sometimes hard to detect.
 - Sometimes you need to change the representation of the time series to detect a pattern.
 
@@ -151,7 +151,7 @@ Altough human-like behaviour can be usefull. For example in the Entertainment in
 
 ## Lecture 3 12/9/22 Agents
 ### What is an agent?
-- An agent is anything that can be viewed as <ins>perceiving</ins> through <u>sensors</u> and <u>acting</u> upon that environment through <u>actuators</u>.
+- An agent is anything that can be viewed as <ins>perceiving</ins> through <ins>sensors</ins> and <ins>acting</ins> upon that environment through <ins>actuators</ins>.
 - An agent operates autonomoously
 - Examples: Humans, robots, softbots, thermostats, etc.
 
