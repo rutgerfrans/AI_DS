@@ -151,7 +151,7 @@ Altough human-like behaviour can be usefull. For example in the Entertainment in
 
 ## Lecture 3 12/9/22 Agents
 ### What is an agent?
-- An agent is anything that can be viewed as <u>perceiving</u> through <u>sensors</u> and <u>acting</u> upon that environment through <u>actuators</u>.
+- An agent is anything that can be viewed as <ins>perceiving</ins> through <u>sensors</u> and <u>acting</u> upon that environment through <u>actuators</u>.
 - An agent operates autonomoously
 - Examples: Humans, robots, softbots, thermostats, etc.
 
