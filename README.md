@@ -1,7 +1,17 @@
 
 
 # Introduction to Artificial Intelligence and Data Science
-## Lecture 0 5/9/22
+This README file contains all my personal lecture notes.
+
+-[Lecture 0]#Lecture0
+-[Lecture 1]#Lecture1
+-[Lecture 2]#Lecture2
+-[Lecture 2b]#Lecture2b
+-[lecture 3]#Lecture3
+
+
+
+## <a name = Lecture0></a>Lecture 0 5/9/22
 ### What is data science?
 - Data Science is the discipline that describes, predicts and makes casual inferences based on data.
 
@@ -79,7 +89,7 @@ A. First the thermostat will record raw temperatures. Then it will check with th
 B. IF Room temperature is to cold THEN start heating room ELSE IF Room temperature too hot THEN start cooling down room.
 
 
-## Lecture 1 6/9/22 Artificial Intelligence
+## <a name= Lecture1></a>Lecture 1 6/9/22 Artificial Intelligence
 ### Turing test
 - A test where a person interacts with a human and AI. 
 - The human has to determin if it is interacting with the human or AI.
@@ -147,9 +157,9 @@ Altough human-like behaviour can be usefull. For example in the Entertainment in
 - Sometimes you need to change the representation of the time series to detect a pattern.
 
 
-## Lecture 2 
+## <a name= Lecture2></a>Lecture 2 
 
-## Lecture 3 12/9/22 Agents
+## <a name= Lecture2b></a>Lecture 2b 12/9/22 Agents
 ### What is an agent?
 - An agent is anything that can be viewed as <ins>perceiving</ins> through <ins>sensors</ins> and <ins>acting</ins> upon that environment through <ins>actuators</ins>.
 - An agent operates autonomoously
@@ -188,38 +198,20 @@ Consider designing an automated taxi:
 - S: Cameras, sonar, speedometer, GPS, odometer, engine sensors, keyboard.
 
 #### Environment types
-##### Fully observable 
-- Giving the agent a complete state of the environment at each point in time.
-- For instance checkers, you can see the whole board including your own pieces aswell as the oponents pieces.
-##### Partially observable
-- Giving the agent only a partly state of the environment:
-- For instance: poker, You only see your own cards and the cards on the table but not someones other cards.
-##### Deterministic
-- The next state of the environment is completely determined by the current state and the action executed by the agent.
-- For instance Checkers and Stratego.
-##### Stochastic
-- The next state of the environment is not completely determined by the curren state and the action executed by the agent.
-- For instance roulette and boogschieten. 
-##### Episodic 
-- The Agent's exp is divided into atomic 'episodes' and the choice of actio in each episode depends only on the episode itself.
-##### Sequential
-- The Agent's exp is divided into atomic 'episodes' and the choice of action can be based on other episodes.
-##### Static
-- The environment is unchanged while an agent is deliberating.
-##### Dynamic
-- The environment changes while an agent is deliberating.
-##### Discrete
-- A limited number of distinct, clearly defined percepts and actions.
-##### continuos
-- A unlimited number of distinct, clearly defined percepts and actions.
-##### Single agent
-- An agent operating by itself in an environment
-##### Multiagent
-- Multiple agents operating in an environment
-##### Known 
-- State of knowledge of the 'law of physics' of the environment.
-##### Unknown
-- 
+**Fully observable:** Giving the agent a complete state of the environment at each point in time. For instance checkers, you can see the whole board including your own pieces aswell as the oponents pieces.
+**Partially observable:** Giving the agent only a partly state of the environment. For instance: poker, You only see your own cards and the cards on the table but not someones other cards.
+**Deterministic:** The next state of the environment is completely determined by the current state and the action executed by the agent. For instance Checkers and Stratego.
+**Stochastic:** The next state of the environment is not completely determined by the curren state and the action executed by the agent. For instance roulette and shooting arrows. 
+**Episodic:**  The Agent's exp is divided into atomic 'episodes' and the choice of actio in each episode depends only on the episode itself.
+**Sequential:** The Agent's exp is divided into atomic 'episodes' and the choice of action can be based on other episodes.
+**Static:** The environment is unchanged while an agent is deliberating.
+**Dynamic:** The environment changes while an agent is deliberating.
+**Discrete:** A limited number of distinct, clearly defined percepts and actions.
+**continuos:** A unlimited number of distinct, clearly defined percepts and actions.
+**Single agent:** An agent operating by itself in an environment
+**Multiagent:** Multiple agents operating in an environment
+**Known:** The agent is aware of the state of knowledge of the 'law of physics' of the environment.
+**Unknown:** The agent is unaware of the state of knowledge of the 'law of physics' of the environment.
 
 ### The Structure of Agents
 #### Agent functins and programs
@@ -254,7 +246,7 @@ Consider designing an automated taxi:
 - Basic agent architectures
 
 
-## Lecture 4 13/9/22 Data Mining
+## <a name= Lecture3></a>Lecture 3 13/9/22 Data Mining
 ### CRISP-DM
 - <b>CR</b>oss <b>I</b>ndustry <b>S</b>tandard <b>P</b>rocess for <b>D</b>ata <b>M</b>ining
 
