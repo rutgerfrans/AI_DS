@@ -3,15 +3,15 @@
 # Introduction to Artificial Intelligence and Data Science
 This README file contains all my personal lecture notes.
 
--[Lecture 0](#Lecture0)
--[Lecture 1](#Lecture1)
--[Lecture 2](#Lecture2)
--[Lecture 2b](#Lecture2b)
--[lecture 3](#Lecture3)
+- [Lecture 0 Introduction to Data Science and Artificial Intelligence](#Lecture0)
+- [Lecture 0b What is Artificial Intelligence?](#Lecture0b)
+- [Lecture 1 Exploratory data Analysis](#Lecture1) 
+- [Lecture 1b Agents](#Lecture1b)
+- [lecture 2 Data mining](#Lecture2)
 
 
 
-## <a name = Lecture0></a>Lecture 0 5/9/22
+## <a name = Lecture0></a>Lecture 0 5/9/22 Introduction to Data Science and Artificial Intelligence
 ### What is data science?
 - Data Science is the discipline that describes, predicts and makes casual inferences based on data.
 
@@ -89,7 +89,7 @@ A. First the thermostat will record raw temperatures. Then it will check with th
 B. IF Room temperature is to cold THEN start heating room ELSE IF Room temperature too hot THEN start cooling down room.
 
 
-## <a name= Lecture1></a>Lecture 1 6/9/22 Artificial Intelligence
+## <a name= Lecture0b></a>Lecture 0b 6/9/22 What is Artificial Intelligence?
 ### Turing test
 - A test where a person interacts with a human and AI. 
 - The human has to determin if it is interacting with the human or AI.
@@ -157,9 +157,9 @@ Altough human-like behaviour can be usefull. For example in the Entertainment in
 - Sometimes you need to change the representation of the time series to detect a pattern.
 
 
-## <a name= Lecture2></a>Lecture 2 
+## <a name= Lecture1></a>Lecture 1 8/9/22 Exploratory data Analysis
 
-## <a name= Lecture2b></a>Lecture 2b 12/9/22 Agents
+## <a name= Lecture1b></a>Lecture 1b 12/9/22 Agents
 ### What is an agent?
 - An agent is anything that can be viewed as <ins>perceiving</ins> through <ins>sensors</ins> and <ins>acting</ins> upon that environment through <ins>actuators</ins>.
 - An agent operates autonomoously
@@ -246,7 +246,7 @@ Consider designing an automated taxi:
 - Basic agent architectures
 
 
-## <a name= Lecture3></a>Lecture 3 13/9/22 Data Mining
+## <a name= Lecture2></a>Lecture 2 13/9/22 Data Mining
 ### CRISP-DM
 - <b>CR</b>oss <b>I</b>ndustry <b>S</b>tandard <b>P</b>rocess for <b>D</b>ata <b>M</b>ining
 
