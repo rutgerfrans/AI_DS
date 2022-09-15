@@ -282,5 +282,48 @@ Consider designing an automated taxi:
 - insert image, zie note book.
 
 
+## Lecture 3 15/9/22 Mathematical modeling
+### Data modeling
+- A model is a mathematical representation of a system. Simple copy of reality.
+- A system is a set of things working together as parts of a mechanism or an interconnecting network.
+- Mathematical models can help people know, understand, or simulate the model represents.
+- A model may help to explain a system and to study the effect of different components, and to make predictions about behaviour.
+- Model can be used to investigate the real world.
+- When robust and accurate they van replace lab experiments
+
+#### Applications
+- Natural Sciences: Physics, Biology, Earth Sciences, Meteorology, Engineering.
+- Social Sciences: Economics, Pschycology, Sociology, Political Science.
+
+
+**Example of a system(and of a possible model)**
+System is a set of interacting or interdependent components forming an integrated whole:
+- The Fighter 
+- A biological system (a cell, an organ, etc.)
+- A specific netural environment (Amazon forest)
+
+*The model*
+INPUT(u): Rudders, aileron, thrust.<br>
+MODEL: x(t+1) = Fx(t) + Gu(t) and y = H x(t)<br>
+OUTPUT(y): velocity, pitch angel <br>
+u,y: measured time or frequency domain signals
+
+ 
+#### Machanistic models
+- A mechanistic model tries to model the relation between input and output of a system by understanding and replicating the individual components of the system and their interactions. 
+- They have tangible, physical aspects.
+#### Statistical models
+- A statistical model seeks only to best described the data, the relation between observed input and output, without trying to replicate the real functioning of the system.
+
+### From data to model 
+- This is an identification problem. 
+- Given the observations, we want to retrieve the model that generated those.
+- Thus: this becomes a problem of model fitting. 
+- Most popular model fitting application is linear regression models.
+
+### What to know for the exam
+- Given a set of correlated variables x and y, know how to compute the linear equation of the regression line through the data (y = ax+b)
+- Know how to solve exercises as the one given at the eind of this lecture.
+
 
 
