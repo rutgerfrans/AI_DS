@@ -137,14 +137,27 @@ Altough human-like behaviour can be usefull. For example in the Entertainment in
 - Computational limitations make perfect rationality unachievable.
 - So we try to create the best program for the given machine resources.
 
-## Lecture 2 8/9/22 
-(fourier analysis not needed for exam)
+## <a name= Lecture1></a>Lecture 1 8/9/22 Exploratory data Analysis
+### Exploratory data Analysis
+Exploratory data analysis is an aproach to analyzing data sets to summarize their main characteristics and start discovering interesting things/structure in the data.
+<br><br>
+Results of exploratory data analysis should not be taken as absolute truth about the data. <ins>Rather, they should constitute a starting point for the development of a scientific hypothesis and further study.</ins>
+
+#### First things to do when exploring the data
+- How are the data <ins>distributed/organized</ins> (visualize data)
+- Descriptive statisctics (mean, median, range, standard deviation)
+- Are there <ins>outliers</ins>?
+- Are there <ins>Anomalies</ins>?
+- Are there missing values?
+- Discover interesting things obout the data using models.
+
+
 ### Data visualization
 - The general principle tot display data: <ins>as far as possible, to show the original data and try not to obscure the design of the study.</ins>
 - Show as much data/information as possible.
 
 #### Develop critical/statistical thinking
-- Visualization isn't jusst about plotting data. It's about understanding the data and looking at it in a critical way. You are looking for features that will help you determine the mot suitable way to handle, process and analyze those data.
+- Visualization isn't just about plotting data. It's about understanding the data and looking at it in a critical way. You are looking for features that will help you determine the more suitable way to handle, process and analyze those data.
 - Think of ww2 airplane example
 
 ### Time series data
@@ -156,8 +169,60 @@ Altough human-like behaviour can be usefull. For example in the Entertainment in
 - Sometimes hard to detect.
 - Sometimes you need to change the representation of the time series to detect a pattern.
 
+### Fourier Analysis
+- Is the study of the way general functions may be represented of approximated by sums of simpler trigonometric functions.(sine and cosine)
+- Time series can be interpreted as "functions".
+- Then Fourrier analysis van be used to "decompose" time series into sumple patters. (simple building blocks, sine and cosine functions)
+- These building blocks are periodic functions themselves, and can tell us something about the oscillatory components / repetitive patterns in a tuime series.
+- It simply devides the really complex frequency in seperate more simple frequencies that can be observed on it's own.
 
-## <a name= Lecture1></a>Lecture 1 8/9/22 Exploratory data Analysis
+### Complex numbers
+Complex numbers consists out of real numbers and imaginary numbers. <br>
+- Real numbers for instance: -0, 1, 0.3, pi, e
+- Imaginary numbers for instance: i, -i, pi i, ei
+- Realnumbers and Imaginary numbers are a subset of complex numbers
+
+take forinstance z as a complex number, then: z = 5 + 3i <br>
+5 is a real number, 3i is a imaginary number and (5+3i) is a complex number. <br>
+Realnumber part form (z) = 5, also Re(z)=5, Im(z)=3
+
+#### Complex Plane
+<img src=imgs/complexplane.png width=25% height=25%>
+
+### Operations with complex numbers
+#### Algebraic addition
+- z = a + bi and w = c + di 
+- Z + w = a + bi + c + di
+- = (a + c) + (b + d)
+
+**Slighty harder example of additin:**<br>
+- 2 + 3i + 7i^2 + 5i^3 + 9i^4
+- i^2 = -1
+- i^3 = i^2 * i = -1 * i = -i
+- i^4 = i^2 * i * i = -i^2 = 1
+- 2 + (3i) + (7 * -1) + (5 * -i ) + (9 * 1)
+- 2 + 3i - 7 - 5i + 9
+- 4 - 2i
+
+#### Multiplication
+- z * w = (a + bi)(c + di)
+- = ac + adi + cbi + bdi^2
+- = ac + i(ad + cb) + bdi^2
+- = ac + i(ad + cb) + -bd
+- = (ac - bd) + i(ad + cb)
+
+#### Division
+- z/w = (a + bi/c + di) 
+- = (a + bi/c + di) * (c - di/c - di)
+- = ((a + bi)(c - di))/((c + di)(c - di))
+- = (ac - adi + cdi - bdi^2)/(c^2 - d^2i^2)
+- = (ac - i(ad + cd) + bd)/(c^2 - d^2)
+- = ((ac + bd)/(c^2 - d^2)) - i((ad + cd)/(c^2 - d^2))
+
+### What to know for the exam
+- Complex numbers and their representation in the complex plane
+- Cartesian and polar form - and transformation form one into another
+- Operations with complex numbers
 
 ## <a name= Lecture1b></a>Lecture 1b 12/9/22 Agents
 ### What is an agent?
