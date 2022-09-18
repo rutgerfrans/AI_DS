@@ -343,9 +343,40 @@ Consider designing an automated taxi:
 - Supervised learning: Classification or Regression 
 - Unsupervised Learning: Clustering
 
-### Euclidean distance
-- insert image, zie note book.
+### Distance measures
+A distance measure should fulfill four conditions:
+1. d(P,Q) >= 0
+2. d(P,Q) = 0 iff P = Q
+3. d(P,Q) = d(Q,P)
+4. d(P,Q) =< d(P,W) + d(W,Q) (triangle inequality)
+- There are many ways to construct a distance measure
 
+### Euclidean distance
+- P = {p1,p2,...,pn}
+- Q = {q1,q2,...,qn}
+
+The Euclidean distance (d) from P to Q
+- d(P,Q) = √(q1-p1)^2+(q2-p2)^2+...+(qn-pn)^2
+- = √Σ(qi-pi)^2
+
+**Example:**<br>
+- 2d plane
+- P(5,5) and Q(9,8)
+- Geometricaly
+<img src="imgs/euclex.png" width=25% height=25%>
+- d(P,Q) = √(9-5)^2+(8-5)^2 = √a^2 + b^2 = pietjeachoras
+
+### Absolute (Manhattan) distance:
+<img src="imgs/absdis.png" width=25% height=25%>
+
+### Infinity distance:
+- d(P,Q) = max(|q1 - q2|,....,|qn - pn|)
+
+### Distance measures based on some property of two points
+- Cosine distance = angle between lines from the origin to the points in question.
+<img src="imgs/cosdis.png" width=25% height=25%>
+- Edit distance = number of inserts and deletes to change TS1 int TS2
+- TS1 = {1,2,3,<ins>3</ins>,4,<ins>1</ins>,1} TS2 = {1,2,3,2,4,2,1}
 
 ## Lecture 3 15/9/22 Mathematical modeling
 ### Data modeling
