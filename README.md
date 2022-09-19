@@ -339,9 +339,7 @@ Consider designing an automated taxi:
 5. Regression 
 6. Summarization
 
-- Machine learing: Supervised, Unsupervised or reinforced learning
-- Supervised learning: Classification or Regression 
-- Unsupervised Learning: Clustering
+<img src="imgs/mltree.png" width=25% height=25%>
 
 ### Distance measures
 A distance measure should fulfill four conditions:
@@ -377,6 +375,50 @@ The Euclidean distance (d) from P to Q
 <img src="imgs/cosdis.png" width=25% height=25%>
 - Edit distance = number of inserts and deletes to change TS1 int TS2
 - TS1 = {1,2,3,<ins>3</ins>,4,<ins>1</ins>,1} TS2 = {1,2,3,2,4,2,1}
+
+### Clustering - Example of Unsupervised learning
+#### Examples of application
+- Customer marketing segmentation
+- Patient clustering
+- Image segmentation
+- Image compression
+- Earthquake analysis
+- Student clustering
+- Weather zones
+- Daily energy use
+
+### Classification - Example of supervised learning
+<img src="imgs/classification.png" width=25% height=25%>
+
+- Many ways to classify:
+ - Linear/Logistic 
+ - Regression
+ - Support Vector Machine
+ - Naïve Bayes
+ - Decision Trees
+ - k-Nearest Neighbors
+ - Neural Networks
+- First get a clear idea about the <ins>research question</ins> and the <ins>available data</ins>
+
+#### Many different methods, tradeoff between accuracy and interpretability
+<img src="imgs/tradeoffmethods.png">
+
+##### But how do we choose a proper one?
+**Bias**<br>
+- Bias refers to the error that is introduced by modeling a real life problem (that is usually extremely complicated) by a much simpler problem
+**Variance**<br>
+- Variance refers to how much your estimate would change by if you had a different training data set
+
+<img src="imgs/biasvartradeoff.png" width=25% height=25%>
+
+### What to do for exam?
+- Problem suitable for data mining
+- Learning types
+- Data mining tasks 
+- Definition of distance measure (four conditions)
+- Definitions of Euclidean distance, absolute distance, infinity distance, edit distance 
+- Given two time series/strings: know how to compute Euclidean distance, absolute distance, infinity distance, edit distance
+- Solve exercises of the type given in the homeworks (next slide)
 
 ## Lecture 3 15/9/22 Mathematical modeling
 ### Data modeling
@@ -420,6 +462,7 @@ u,y: measured time or frequency domain signals
 ### What to know for the exam
 - Given a set of correlated variables x and y, know how to compute the linear equation of the regression line through the data (y = ax+b)
 - Know how to solve exercises as the one given at the eind of this lecture.
+
 
 
 
