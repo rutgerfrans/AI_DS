@@ -8,6 +8,7 @@ This README file contains all my personal lecture notes.
 - [Lecture 1 Exploratory data Analysis](#Lecture1) 
 - [Lecture 1b Agents](#Lecture1b)
 - [lecture 2 Data mining](#Lecture2)
+- [lecture 3 Mathematical moddeling](#Lecture3)
 
 
 
@@ -420,7 +421,7 @@ The Euclidean distance (d) from P to Q
 - Given two time series/strings: know how to compute Euclidean distance, absolute distance, infinity distance, edit distance
 - Solve exercises of the type given in the homeworks (next slide)
 
-## Lecture 3 15/9/22 Mathematical modeling
+## <a name= Lecture3></a>Lecture 3 15/9/22 Mathematical modeling
 ### Data modeling
 - A model is a mathematical representation of a system. Simple copy of reality.
 - A system is a set of things working together as parts of a mechanism or an interconnecting network.
