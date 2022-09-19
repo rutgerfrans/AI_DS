@@ -523,6 +523,91 @@ u,y: measured time or frequency domain signals
 - Given a set of correlated variables x and y, know how to compute the linear equation of the regression line through the data (y = ax+b)
 - Know how to solve exercises as the one given at the eind of this lecture.
 
+## Lecture 4 19/9/22 Search
+- Many AI approaches rely on search to find the 'best' solution to a problem.
+- By searching through the possible solutions we van find the solution we need.
+
+**Example Maze**
+<img src="imgs/mazetree.png">
 
 
+### Tree terminology
+- insert image of tree
+- <b>Root:</b> node without parent (A)
+- <b>Descendant</b> of a node: child, grandchild, grand-grandchild, etc.
+- <b>Internal node:</b> node with at least one child (A,B,C,F)
+- <b>Leaf node:</b> node without childrne (E,I,J,K,G,H,D)
+- <b>Ancestors</b> of a node: parent, grandparent, grand-grandparent, etc.
+- <b>Subtree:<b> tree consisting of a node and its descendants (C with G and H)
+
+### Searching tree algorithms
+#### Breadth first search
+1. Look at the root, if it isn't a solution...
+2. Look at all children of the root, if no solution...
+3. Look at all the grandchildren of the root, if no solution...
+4. Etc.
+
+<img src="imgs/brefir.png">
+
+- Search order: A, B, H, E, I, F, L, C, J, D, K, G, N, M, Exit
+
+#### Depth first search
+- In depth first search we go as deep as we can with each path, until we reach a leaf, then we backtrack up the tree.
+
+<img src="imgs/depfir.png" width=25% height=25%>
+
+- Search order: A, B, H, E, I, F, C, D, K, G, N, M exit (never visit j and L)
+
+### Search in games
+- Searching depth (because looking at all the options is inefficient)
+	- Number of state transisitions (moves) from the root of search to the considered state position (measured in ply)
+- Branching factor b
+	- Average number of successor nodes (moves)
+
+#### Example: Sudoku 4x4
+- 12 cells to fill
+- Consider that we fill cells one-by-one (fixed order)
+- Each node has 4 children (1,2,3,4)
+	- some childeren will be discarded
+- Max tree depth: 12
+- Branching factor: 4
+
+### Adversary Search
+- Two (or more) opponents, each trying to maximize their expectations
+- Player 1 is called MAX
+	- Obtain the maximum result
+	- Minimize that of the opponent
+- Player 2 is called MIN
+	- Obtain the minimim result
+	- Maximize that of the oppenent
+
+#### Game tree (2-player, deterministic, turn-taking)
+<img src"imgs/tictactree.png" width=25% height=25%>
+
+### MiniMax Search (Vn Neumann, 1928)
+<img src"imgs/minimax.png" width=25% height=25%>
+
+### Pruning with minimax trees
+- Minimizing game trees
+
+### Heuristic Search
+- Truncate the game tree (limited search depth)
+- Use a *(static heuristic) evaluation function* at the leaves
+- Minimax (with pruning) on the reduced game tree
+- Playing is solcing a sequence of these game trees
+
+#### Heuristic Evaluation Function
+- Heuristics values must be correlated with the true (game-theoric) value.
+- For Chess, typically <ins>linear</ins> weighted sum of features
+	- Eval(s) = w1 * f1(s) + w2 * f2(s) + ... + wn * fn(s)
+	- e.g., w1 = 9 with
+	- f1(s) = (number pf white queens) - (number of black queens), etc.
+
+### What to know for exam?
+- Tree terminology
+- Using trees for search
+- Breadth first search
+- Depth first search
+- Minimax search
+- pruning
 
