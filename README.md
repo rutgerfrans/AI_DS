@@ -391,13 +391,13 @@ The Euclidean distance (d) from P to Q
 <img src="imgs/classification.png" width=25% height=25%>
 
 - Many ways to classify:
- - Linear/Logistic 
- - Regression
- - Support Vector Machine
- - Naïve Bayes
- - Decision Trees
- - k-Nearest Neighbors
- - Neural Networks
+  - Linear/Logistic 
+  - Regression
+  - Support Vector Machine
+  - Naïve Bayes
+  - Decision Trees
+  - k-Nearest Neighbors
+  - Neural Networks
 - First get a clear idea about the <ins>research question</ins> and the <ins>available data</ins>
 
 #### Many different methods, tradeoff between accuracy and interpretability
@@ -478,39 +478,39 @@ u,y: measured time or frequency domain signals
 | Yk | 1 | 2 | 5 | 4 |
 
 - Calculate by using:
- - argmin SUM(Yk - (a * Xk + b))^2
+  - argmin SUM(Yk - (a * Xk + b))^2
 
 - Calculating errors
- - e1 = (1-(a * 0 + b))^2 = 1  + b^2  - 2b
- - e2 = (2-(a * 1 + b))^2 = 4  + a^2  + b^2 - 4a  - 4b +  2ab
- - e3 = (5-(a * 2 + b))^2 = 25 + 4a^2 + b^2 - 20a - 10b + 4ab
- - e4 = (4-(a * 3 + b))^2 = 16 + 9a^2 + b^2 - 24a - 8b  + 6ab <br>
+  - e1 = (1-(a * 0 + b))^2 = 1  + b^2  - 2b
+  - e2 = (2-(a * 1 + b))^2 = 4  + a^2  + b^2 - 4a  - 4b +  2ab
+  - e3 = (5-(a * 2 + b))^2 = 25 + 4a^2 + b^2 - 20a - 10b + 4ab
+  - e4 = (4-(a * 3 + b))^2 = 16 + 9a^2 + b^2 - 24a - 8b  + 6ab <br>
 
 - Calculating derivative
- - Dva = (0 + 0 + 0) + (0 + 2a + 0 - 4 + 2b) + (0 + 8a + 0 - 20 + 0 + 4b) + (0 + 18a + 0 - 24 + 0 + 6b)
- - Dva = 28a + 48 + 12b
- - Dvb = (0 + 2b - 2) + (0 + 0 + 2b + 0 - 4 + 2a) + (0 + 0 + 2b + 0 - 10 + 4a) + (0 + 0 + 2b + 0 - 8 + 6a)
- - Dvb = 8b - 24 + 12a<br>
+  - Dva = (0 + 0 + 0) + (0 + 2a + 0 - 4 + 2b) + (0 + 8a + 0 - 20 + 0 + 4b) + (0 + 18a + 0 - 24 + 0 + 6b)
+  - Dva = 28a + 48 + 12b
+  - Dvb = (0 + 2b - 2) + (0 + 0 + 2b + 0 - 4 + 2a) + (0 + 0 + 2b + 0 - 10 + 4a) + (0 + 0 + 2b + 0 - 8 + 6a)
+  - Dvb = 8b - 24 + 12a<br>
 
 - Calculating a and b
- - 8b - 24 + 12a = 0
- - 8b = 24 - 12a
- - b = 3 - 3/2a
- - Fill in b:
-  - 28a - 48 + 12b = 0
-  - 28a - 48 + 12 * (3-3/2a) = 0
-  - 28a - 48 + 36 - 18a = 0
-  - 10a - 12 = 0
-  - 10a = 12
-  - a = 12/10
-  - a = 6/5
- - Fill in a:
+  - 8b - 24 + 12a = 0
+  - 8b = 24 - 12a
   - b = 3 - 3/2a
-  - b = 3 - 3/2 * 6/5
-  - b = 6/5
+  - Fill in b:
+    - 28a - 48 + 12b = 0
+    - 28a - 48 + 12 * (3-3/2a) = 0
+    - 28a - 48 + 36 - 18a = 0
+    - 10a - 12 = 0
+    - 10a = 12
+    - a = 12/10
+    - a = 6/5
+  - Fill in a:
+    - b = 3 - 3/2a
+    - b = 3 - 3/2 * 6/5
+    - b = 6/5
 
 - Final fitted line is:
- - Ya = 6/5x + 6/5
+  - Ya = 6/5x + 6/5
 
 ### Overfitting
 - Fitting model too complicated with respect to true model.
