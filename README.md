@@ -339,7 +339,7 @@ Consider designing an automated taxi:
 5. Regression 
 6. Summarization
 
-<img src="imgs/mltree.png" width=25% height=25%>
+<img src="imgs/mltree.png" width=50% height=50%>
 
 ### Distance measures
 A distance measure should fulfill four conditions:
@@ -401,7 +401,7 @@ The Euclidean distance (d) from P to Q
 - First get a clear idea about the <ins>research question</ins> and the <ins>available data</ins>
 
 #### Many different methods, tradeoff between accuracy and interpretability
-<img src="imgs/tradeoffmethods.png">
+<img src="imgs/tradeoffmethods.png" width=25% height=25%>
 
 ##### But how do we choose a proper one?
 **Bias**<br>
@@ -458,6 +458,66 @@ u,y: measured time or frequency domain signals
 - Given the observations, we want to retrieve the model that generated those.
 - Thus: this becomes a problem of model fitting. 
 - Most popular model fitting application is linear regression models.
+
+### Linear regression models
+- y is the output, for instance, the observations you have collected
+- x is the explenatory variable (the regressor), a quantity the observation depends on
+- linear regression is an approach to modeling the relationship between y and x
+
+<img src="imgs/linreg.png" width=25% height=25%>
+
+#### Why useful?
+- Investigate possible association
+- Interpolation of missing data
+- Forecasting
+
+**Example linear regression: **<br>
+| K  | 1 | 2 | 3 | 4 |
+|----|---|---|---|---|
+| Xk | 0 | 1 | 2 | 3 |
+| Yk | 1 | 2 | 5 | 4 |
+
+- Calculate by using:
+ - argmin SUM(Yk - (a * Xk + b))^2
+
+- Calculating errors
+ - e1 = (1-(a * 0 + b))^2 = 1  + b^2  - 2b
+ - e2 = (2-(a * 1 + b))^2 = 4  + a^2  + b^2 - 4a  - 4b +  2ab
+ - e3 = (5-(a * 2 + b))^2 = 25 + 4a^2 + b^2 - 20a - 10b + 4ab
+ - e4 = (4-(a * 3 + b))^2 = 16 + 9a^2 + b^2 - 24a - 8b  + 6ab <br>
+
+- Calculating derivative
+ - Dva = (0 + 0 + 0) + (0 + 2a + 0 - 4 + 2b) + (0 + 8a + 0 - 20 + 0 + 4b) + (0 + 18a + 0 - 24 + 0 + 6b)
+ - Dva = 28a + 48 + 12b
+ - Dvb = (0 + 2b - 2) + (0 + 0 + 2b + 0 - 4 + 2a) + (0 + 0 + 2b + 0 - 10 + 4a) + (0 + 0 + 2b + 0 - 8 + 6a)
+ - Dvb = 8b - 24 + 12a<br>
+
+- Calculating a and b
+ - 8b - 24 + 12a = 0
+ - 8b = 24 - 12a
+ - b = 3 - 3/2a
+ - Fill in b:
+  - 28a - 48 + 12b = 0
+  - 28a - 48 + 12 * (3-3/2a) = 0
+  - 28a - 48 + 36 - 18a = 0
+  - 10a - 12 = 0
+  - 10a = 12
+  - a = 12/10
+  - a = 6/5
+ - Fill in a:
+  - b = 3 - 3/2a
+  - b = 3 - 3/2 * 6/5
+  - b = 6/5
+
+- Final fitted line is:
+ - Ya = 6/5x + 6/5
+
+### Overfitting
+- Fitting model too complicated with respect to true model.
+- Easy to occur with high noise.
+- Model becomes useless for prediction.
+
+<img src="imgs/overfitting.png" width=25% height=25%>
 
 ### What to know for the exam
 - Given a set of correlated variables x and y, know how to compute the linear equation of the regression line through the data (y = ax+b)
