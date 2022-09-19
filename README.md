@@ -9,6 +9,7 @@ This README file contains all my personal lecture notes.
 - [Lecture 1b Agents](#Lecture1b)
 - [lecture 2 Data mining](#Lecture2)
 - [lecture 3 Mathematical moddeling](#Lecture3)
+- [lecture 4 Search](#Lecture4)
 
 
 
@@ -524,7 +525,7 @@ u,y: measured time or frequency domain signals
 - Given a set of correlated variables x and y, know how to compute the linear equation of the regression line through the data (y = ax+b)
 - Know how to solve exercises as the one given at the eind of this lecture.
 
-## Lecture 4 19/9/22 Search
+## <a name= Lecture4></a>Lecture 4 19/9/22 Search
 - Many AI approaches rely on search to find the 'best' solution to a problem.
 - By searching through the possible solutions we van find the solution we need.
 
@@ -548,7 +549,7 @@ u,y: measured time or frequency domain signals
 3. Look at all the grandchildren of the root, if no solution...
 4. Etc.
 
-<img src="imgs/brefir.png">
+<img src="imgs/brefir.png" width=25% height=25%>
 
 - Search order: A, B, H, E, I, F, L, C, J, D, K, G, N, M, Exit
 
@@ -583,10 +584,10 @@ u,y: measured time or frequency domain signals
 	- Maximize that of the oppenent
 
 #### Game tree (2-player, deterministic, turn-taking)
-<img src"imgs/tictactree.png" width=25% height=25%>
+<img src="imgs/tictactree.png" width=25% height=25%>
 
 ### MiniMax Search (Vn Neumann, 1928)
-<img src"imgs/minimax.png" width=25% height=25%>
+<img src="imgs/minimax.png" width=25% height=25%>
 
 ### Pruning with minimax trees
 - Minimizing game trees
