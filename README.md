@@ -530,7 +530,7 @@ u,y: measured time or frequency domain signals
 - By searching through the possible solutions we van find the solution we need.
 
 **Example Maze**
-<img src="imgs/mazetree.png">
+<img src="imgs/mazetree.png" width=25% height=25%>
 
 
 ### Tree terminology
