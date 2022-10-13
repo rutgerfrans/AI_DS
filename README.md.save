@@ -669,3 +669,32 @@ u,y: measured time or frequency domain signals
 - Is the expected reduction in entropy caused by partitioning the instances form S according to a given attribute.
 - Gain (S, A) = E(S) - SUMvinA((|Sc|/|S|)*E(Sv))
 - Where Sv = {s in S | A(s) = V}
+
+
+## <a name="Lecture5"></a> Lecture 5 Computer Simulations - Monte Carlo Method
+
+## <a name="Lecture6"></a> Lecture 6 27/9/22 Game theory
+### Game theory
+- Is a branch of applied mathematics which studies the individual decisions of a subject, called a player, in situations of strategic interaction (or conflict) with other players.
+- Objective for each player: maximize the personal gains (or minimize personal cost).
+- It is the study of <ins>mathematical models</ins> of conflict and cooperation between intelligent rational decision-makers.
+- Rational decision maker.
+
+#### Applications of game theory
+- Economics
+- Political science
+- Psychology
+- Computer science
+- Biology
+
+#### Some usefull definitions
+- <ins>Actions (strategies):</ins> All the possible things a player can do in the game.
+- <ins>Payoff:</ins> The benefit for a player resulting from the actions/strategies teaken by all players together.
+- <ins>(2 players) Payoff (bi)matrix:</ins> A (bi)matrix consisting of the payoffs for both players for all action/strategy pairs (so we need to have prior knowledge about the problem).
+
+#### Two-player zero-sum games
+- Only two players; adversaries (enemies)
+- Zero-sum: whatever player 1 wins, player 2 loses and vice versa, so that the sum of their winnings is zero.
+
+
+
